@@ -2,7 +2,7 @@
 TouchEgg configuration for Touchpad Gestures like MacOS/Windows for KDE Plasma. Finally, enjoy the multi-touch touchpad gesture goodness of MacOS in KDE Plasma!
 
 ## My tweaks
-Some tweak form my OpenSUSE system:
+Some tweaks form my OpenSUSE system:
 
 ### Present Windows
 
