@@ -1,6 +1,25 @@
 # ToucheggKDE
 TouchEgg configuration for Touchpad Gestures like MacOS/Windows for KDE Plasma. Finally, enjoy the multi-touch touchpad gesture goodness of MacOS in KDE Plasma!
 
+## My tweaks
+Some tweak form my OpenSUSE system:
+
+### Present Windows
+
+```
+qdbus-qt5 org.kde.kglobalaccel /component/kwin invokeShortcut 'Expose'
+```
+
+instead of
+
+```
+qdbus org.kde.kglobalaccel /component/kwin invokeShortcut 'Overview'
+```
+
+### qdbus
+
+Rename all `qdbus` to `qdbus-qt5`
+
 ## Installation
 [Install touchegg first if you haven't already](https://github.com/JoseExposito/touchegg)   
 ```shell
